@@ -1,0 +1,372 @@
+.dashboard{
+    position: absolute;
+    top:4.5rem;
+    width: 80%;
+    z-index: 0;
+    height: auto;
+    left: 20%;
+    background-color: #EBEEF3;
+}
+.datepickers{
+    justify-content: end;
+    align-items: center;
+    display: flex;
+   background-color: white;
+   border-left:8px solid #5570F7;
+//    border-top:1px solid #5570F7;
+//    border-bottom: 1px solid #5570F7;
+    //  border-top-left-radius: 4px;
+    // border-bottom-left-radius: 4px;
+    padding-left: 1rem;
+    position: fixed;
+    flex-wrap: wrap;
+    right:0;
+    z-index: 100;
+    box-shadow: 0px 4px 8px rgba(27, 33, 44, 0.1);
+    font-size: 0.8rem;
+}
+.datepickers input{
+    background-color: white;
+    border: none;
+   // box-shadow: 0px 4px 8px rgba(27, 33, 44, 0.1);
+    border-radius: 4px;
+    padding: 0.4rem;
+    margin: 0rem 1rem;
+}
+.titles{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    font-weight: 900;
+    margin: 1rem;
+    color: #192030;
+}
+
+.subtitles{
+    color:#192030;
+    font-size: 1.35rem;
+    margin: 1.5rem 1rem;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.data-container{
+
+    height: 30rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0rem 1rem;
+    padding-bottom:1rem ;
+    justify-content:space-between;
+    background-color: #EBEEF3;
+
+}
+.col-data-container{
+    height: 25rem;
+    display: flex;
+    padding: 1rem 1rem;
+    padding-top: 0rem;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    background-color: #EBEEF3;
+}
+.state-container{
+    
+    height: 30rem;
+    width:33%;
+    justify-content: space-around;
+}
+.state-boxes{
+    min-width:10rem;
+    height: 48%;
+    width:100%;
+    margin-bottom: 1rem;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(27, 33, 44, 0.1);
+    border-radius: 4px;
+ .link{
+   
+    display: flex;
+    height: inherit;
+    align-items:center;
+    justify-content: center;
+ }
+    
+}
+.state-outer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
+}
+.col-state-container{
+    
+    height: 17rem;
+    width:36%;
+    justify-content: space-around;
+}
+.col-state-boxes{
+    min-width:10rem;
+    height: 47%;
+   
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(27, 33, 44, 0.1);
+    border-radius: 4px;
+}
+.collection-state-boxes{
+    min-width:10rem;
+    height: 18%;
+
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(27, 33, 44, 0.1);
+    border-radius: 4px;
+}
+.col-chart-container{
+    height:17rem ;
+    width:62.5%;
+    box-shadow: 0px 4px 8px rgba(27, 33, 44, 0.1);
+    border-radius: 4px;
+    background-color: white;
+}
+.chart-container{
+    height:30rem ;
+    width:65.5%;
+    box-shadow: 0px 4px 8px rgba(27, 33, 44, 0.1);
+    border-radius: 4px;
+    background-color: white;
+}
+.chart-container canvas{
+height: 100% !important;
+width: 100% !important;
+}
+.chart-head{
+margin: 1rem;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: #383E4B;
+
+}
+.col-chart-container canvas{
+    height: 12rem;
+}
+.state-amount{
+
+
+font-style: normal;
+font-weight: 900;
+font-size: 1.2rem;
+line-height: 24px;
+color: #383E4B
+}
+.state-innerbox
+{
+    margin-top: 2rem;
+}
+.state-name{
+font-style: normal;
+font-weight: 400;
+font-size: 0.9rem;
+line-height: 19px;
+/* identical to box height */
+color: #707A8E;
+}
+.other-states{
+  
+    background-color: #EBEEF3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    margin: 0rem 0.8rem;
+}
+.small-statebox{
+    align-items: center;
+    display: flex;
+    width:19%;
+    justify-content:left;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(27, 33, 44, 0.1);
+   border-radius: 4px;
+}
+
+.chart-area{
+    margin: 1rem;
+
+}
+.statebox-imgs{
+    box-shadow: 0px 2px 6px rgba(92, 12, 12, 0.35);
+    border-radius: 6px;
+    height: 4.5rem;
+    width:4.5rem;
+    margin:1.5rem;
+    }
+.otherbox-imgs{
+box-shadow: 0px 2px 6px rgba(92, 12, 12, 0.35);
+border-radius: 6px;
+height: 3.1rem;
+width:3.1rem;
+margin:1rem;
+}
+.viewbtn{
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 0.8rem 1.5rem;
+    background: #E6E9EF;
+border-radius: 4px;
+}
+
+@media only screen and (max-width:900px) {
+    /* For tablets: */
+    .titles{
+        font-size: 1.2rem;
+        
+        margin: 0rem;
+       
+    }
+    
+    .subtitles{
+       
+        font-size: 1rem;
+        margin: 1rem 0rem;
+        
+    }
+    .data-container{
+        height :max-content;
+        padding : 0rem 
+    }
+    .col-data-container{
+        padding: 0rem;
+        height :max-content
+    }
+    .dashboard{
+        width:100%;
+        padding:1rem;
+        left:4rem;
+        
+    }
+   
+    .state-container{
+        width: 100vw;
+        height:auto;
+        display: flex;
+        margin: 0;
+        margin-top: 1rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+       position: relative;
+    }
+.col-state-container{
+    width: 100vw;
+        height:auto;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0; 
+}
+    .state-container > .state-boxes{
+    width:48%;
+    height:auto;
+    .link{
+        margin-bottom:1.5rem ;
+    }
+    }
+    .col-state-container > .col-state-boxes{
+        width:48%;
+        height:8rem
+    }
+    .collection-state-boxes{
+        width:48%;
+        height: fit-content;
+    }
+    .other-states{
+        margin: 0;
+    }
+   .chart-container{
+    width: 100vw;
+   }
+   .col-chart-container{
+    width: 100%;
+    canvas{
+        height: 12rem;
+    }
+   }
+   .small-statebox{
+    width:48%;
+    margin-bottom: 1rem;
+
+   }
+
+  }
+  @media only screen and (max-width: 500px) {
+    /* For mobile phones: */
+    .data-container{
+       
+        height :max-content
+    }
+    .datepickers{
+        width:12rem
+    }
+    .datepickers input{
+        margin-left: 1rem;
+
+        margin-top: 0.2rem;
+        margin-right: 0;
+    }
+    .col-data-container{
+        height :max-content
+    }
+    
+    .chart-container{
+    height:auto !important;
+    width:100%
+ 
+    }
+    .col-chart-container{
+        height: auto;
+    }
+    .state-container{
+
+        position: relative;
+        margin-top:1rem ;
+        
+    }
+    .col-state-container{
+       // margin-top:1rem ;
+    }
+    .state-boxes{
+        margin: 0;
+        min-width:100%;
+        margin-bottom: 1rem;
+        .link{
+            margin-bottom:1rem ;
+        }
+    }
+    .col-state-boxes{
+        margin: 0;
+        min-width:100%;
+        margin-bottom: 1rem;
+    }
+    .collection-state-boxes{
+        margin: 0;
+        min-width:100%;
+        margin-bottom: 1rem;
+    }
+    .small-statebox{
+        width:100%;
+       
+    }
+    
+  }

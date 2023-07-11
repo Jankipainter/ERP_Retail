@@ -1,0 +1,60 @@
+@font-face{
+    font-family: "sen";
+    src:local("Sen-ExtraBold"),
+    url("../assets/font/Sen-ExtraBold.ttf") format("truetype")
+}
+.navbar{
+    box-sizing: border-box;
+    height: 4.5rem;
+    background: #FFFFFF;
+box-shadow: 0px 3px 10px rgba(35, 40, 68, 0.15);
+    width:100%;
+    display: flex;
+    z-index: 100;
+    position: fixed;
+    justify-content: space-between;
+    .header{
+        font-family: "sen";
+        display: flex;
+        padding: 1rem 5rem;
+        width:auto;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.6rem;
+    line-height: 36px;
+    /* identical to box height */
+    color: #182030;
+    text-shadow: 1px 2px 2px rgba(24, 32, 48, 0.22);
+    }
+}
+.logoutbtn{
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    background-color: #5570F7 ;
+    color:white;
+    border: none;
+    transition: all 0.5s;
+    box-shadow: 0px 2px 4px rgba(19, 29, 78, 0.25);
+border-radius: 5px;
+}
+
+@media only screen and (max-width:900px) {
+    .navbar{
+        height: 4.5rem;
+        .header{
+            font-size: larger;
+            padding: 1rem 2rem;
+        }
+    }
+   
+}
+.navbar-items{
+    justify-content: space-between;
+display: flex;
+}
+.nav-item{
+    text-align: center;
+    padding: 1.6rem 1.5rem;
+    padding-left: 0;
+}
+

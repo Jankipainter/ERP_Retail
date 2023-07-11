@@ -1,0 +1,18 @@
+@font-face{
+    font-family: "rubic";
+    src:local("Rubik-VariableFont_wght"),
+    url("./assets/font/Rubik-VariableFont_wght.ttf") format("truetype")
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "rubic";
+}
+body{
+    background-color: #EBEEF3;
+    overflow-x: hidden;
+}
+
+
